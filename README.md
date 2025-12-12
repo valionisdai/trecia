@@ -1,3 +1,36 @@
+# v3.0
+  ### Naudojimos instrukcija:
+  #### Diegimas:
+      1.	Atsisiųskite setup.exe failą.
+      2.	Dukart spustelėkite failą, kad pradėtumėte diegimą.
+      3.	Pasirinkite diegimo aplanką arba palikite numatytąjį (C:\Program Files\JusuPrograma).
+      4.	Spustelėkite Next / Toliau.
+      5.	Pasirinkite, ar sukurti piktogramas darbalaukyje / meniu Pradėti.
+      6.	Spustelėkite Install / Įdiegti.
+      7.	Palaukite, kol diegimas bus baigtas, tada spustelėkite Finish / Baigti.
+  #### Programos paleidimas:
+      1.	Atidarykite meniu Pradėti arba darbalaukį.
+      2.	Spustelėkite programos piktogramą.
+      3.	Programos versija: 1.5 (patikrinkite pagal „Apie programą“).
+    
+  #### Pašalinimas:
+      1.	Atidarykite Valdymo skydas > Programos ir funkcijos.
+      2.	Raskite savo programą sąraše.
+      3.	Spustelėkite 
+
+  
+
+# v2.0
+  Pridėta Doxygen dokumentacija. Atlikti testai, naudojant doctest.
+  Norint atlikti testus reikia (naudojant VS Code):
+  - Visus `.cpp` ir `.h` failus turėti viename "root" (pagrindiniame) aplanke, kuriame bus vykdoma programa.
+  - `.txt` failai nėra reikalingi testams.
+  - Atsisiūsti *doctest.h* failą iš Doctest GitHub puslapio.
+  - Įkelti jį i tą patį "root" aplanką, kuriame yra visi `.cpp` ir `.h` failai.
+  - *tests_studentas.cpp* failą laikyti tame pačiame pagrindiniame aplanke (šalia `.cpp` ir `.h` failų).
+  - Sukompiliuoti tests_studentas.cpp failą ir paleisti sukompiliuotą programa (per VS Code terminalą.
+  - Terminale turite matyti atsakymus.
+
 # v.1.5
 - **Nauja:** abstrakti bazinė klasė `Zmogus` (negali būti instancijuojama).
 - **Nauja:** iš `Zmogus` išvestinė klasė `Studentas`, su visomis ankstesnėse versijose realizuotomis savybėmis.
