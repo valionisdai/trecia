@@ -29,7 +29,7 @@ int main()
             cout << "Generavimas baigtas!" << endl;
         }
     }
-    string folder = "./src/", nfailas;
+    string folder = "./", nfailas;
         for(const auto& entry : fs::directory_iterator(folder))
         {
             if(entry.path().extension() == ".txt" && entry.path().filename().string().find("rez") == string::npos)
@@ -114,5 +114,6 @@ int main()
     if(kl==2) break;
     }
 }
+
 
 
